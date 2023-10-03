@@ -17,7 +17,7 @@ app.use("/posts", postRouter);
 // connections
 mongoose
   .connect(
-    `mongodb+srv://pranjalsingh1702:${process.env.MONGODB_PASSWORD}@cluster0.f7wgkcc.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://harsh786anand:${process.env.MONGODB_PASSWORD}@cluster0.f7wgkcc.mongodb.net/?retryWrites=true&w=majority`
   )
   .then(() =>
     app.listen(5000, () =>
